@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Poppins, sans-serif;
+    height: 100vh;
+    background-color: black;
+}
+.main{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding-top: 10%                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ;
+}
+.anniversary-card, .birthday-card{
+    width: 50%;
+
+}
+.anniversary-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+.anniversary-card .logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    fill: #2a3d8f;
+}
+.anniversary-card h1 {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-size: 20px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                dv
+    letter-spacing: 2px;
+    color: #2a3d8f;
+    font-weight: 350;
+    letter-spacing: 15px;
+}
+.anniversary-card h2 {
+    margin-top: 0px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #2a3d8f;
+}
+.anniversary-card p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.anniversary-card .profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px auto;
+    border: 4px solid #2a3d8f;
+    z-index: 10;
+    object-fit: cover;
+}
+.anniversary-card #container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 10;
+    position: relative;
+}
+.anniversary-card .name {
+    background-color: #2a3d8f;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: 2px solid white;
+    display: inline-block;
+}
+.anniversary-card .name:hover{
+    transition: 0.2s;
+    background-color: white;
+    color: #2a3d8f;
+}
+.anniversary-card .designation {
+    color: white;
+    font-size: 16px;
+    margin: 10px;
+}
+.anniversary-card .drone-icon {
+    width: 80px;
+    position: absolute;
+}
+.anniversary-card .drone-icon-left {
+    top: 280px;
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+    left: 30px;
+}
+.anniversary-card .drone-icon-right {
+    top: 80px;
+    right: 30px;
+    height: 60px;
+    width: 60px;
+    object-fit: contain;
+}
+.footer-section {
+    position: absolute;
+    height: 650px;
+    width: 100%;
+    background-color: #2a3d8f;
+    bottom: 0;
+    clip-path: polygon(0 78%, 100% 47%, 100% 100%, 0% 100%);
+}
+
+
+.birthday-card {
+    width: 600px;
+    height: 600px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.birthday-card .hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.birthday-card .hero .section1, .section2{
+    width: 50%;
+    height: 400px;
+}
+.birthday-card .logo {
+    /* left: 20px; */
+    width: 130px;
+    height: 40px;
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.happy{
+    margin-top: 50px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+
+}
+h2 {
+    font-family: Poppins, sans-serif;
+    color: #003399;
+    font-weight: bold;
+    font-size: 34px;
+}
+
+.message {
+    font-size: 18px;
+    text-align: center;
+    margin-top:  90px;
+    color: #333;
+}
+
+.message .quote-icon {
+    top: 53%;
+    right: 35%;
+    position: absolute;
+    font-size: 60px;
+    color: #003399;
+    font-weight: 300;
+}
+.section2{
+    position: relative;
+    
+}
+.profile-pic {
+    width: 250px;
+    height: 350px;
+    border: 5px solid #003399;
+    object-fit: cover;
+}
+
+.name-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 5%;
+    right: -29.9%;
+    height: 80px;
+    width: 250px;
+    background-color: #003399;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.designation {
+    font-size: 16px;
+    color: #cccccc;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    color: #666;
+}
+
+.footer a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
